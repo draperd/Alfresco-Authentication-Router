@@ -12,6 +12,15 @@ This can be installed using npm install:
 npm install alfresco-auth-router
 ```
 
+## Exported Functions
+The following functions are exported:
+* isAuthenticated - a simple function for checking if the user data is available on the incoming request
+* passportStrategy - a Passport.js strategy for authenticating against an Alfresco Repository
+* serializeUser - a function for serializing the user data
+* deserializeUser - a function for deserializing the user data
+* authRoutes - Express routes for authentication
+* apiRoutes - Express routes for calls to the REST APIs on the Alfresco Repository
+
 ## Usage
 This package can be integrated into an Express server setup as follows.
 
