@@ -1,11 +1,11 @@
 {
    "name": "alfresco-auth-router",
-   "version": "0.0.2",
+   "version": "0.0.3",
    "description": "Node.js middleware for Express for handling authentication and routing REST API calls",
    "main": "index.js",
    "scripts": {},
    "author": "Dave Draper",
-   "license": "ISC",
+   "license": "MIT",
    "dependencies": {
       "express": "^4.14.0",
       "passport-local": "^1.0.0"
