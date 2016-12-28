@@ -1,6 +1,6 @@
 {
    "name": "alfresco-auth-router",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "description": "Node.js middleware for Express for handling authentication and routing REST API calls",
    "main": "index.js",
    "scripts": {},
